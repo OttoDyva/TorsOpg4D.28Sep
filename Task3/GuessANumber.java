@@ -16,7 +16,7 @@ public class GuessANumber {
  	}
 
 
-    /*private static void makeAGuess(){
+    private static void makeAGuess(){
 		// Create a Scanner object   
         Scanner scanner = new Scanner(System.in);
     	// Read user input
@@ -37,25 +37,5 @@ public class GuessANumber {
         // if input was not numeric show an error message and call this method recursively
 
     }
-   */
-    private static void makeAGuess() {
-    // Create a Scanner object   
-    Scanner scanner = new Scanner(System.in);
-    // Read user input
-    String input = scanner.nextLine();
-    
-    // Check if input is numeric
-    if (input.matches() {
-        double guess = Double.parseDouble(input);
-        // Compare it with the random number (not shown in this code)
-        // Let the user know the result of the comparison (not shown in this code)
-        // Handle the game logic here
-
-    } else {
-        System.out.println("Invalid number. Please enter a numeric value.");
-        // Call this method recursively to allow the user to try again
-        makeAGuess();
-    }
-}
 
 }
